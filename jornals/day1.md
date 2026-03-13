@@ -19,3 +19,18 @@ syntax : JSON.stringify()
 - converting string back to object
 
 syntax : JSON.parse()
+
+# FormData
+
+- reads the form and collects all inputs with a name attributes
+
+syntax : new FormData(form)
+
+# Object.fromEntries()
+
+- converts key values pair into an object
+
+# .trim()
+
+    - string method
+    - removes whitespaces from the beginning and the end of a string.
