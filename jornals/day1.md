@@ -34,3 +34,15 @@ syntax : new FormData(form)
 
     - string method
     - removes whitespaces from the beginning and the end of a string.
+
+# Object.key()
+
+    - gets all property names(key) from an object
+
+# for...in → Iterates over keys / property names
+
+- for...in loops through the keys of an object.
+
+# for...of → Iterates over values
+
+- for...of loops through values inside iterable objects.

@@ -5,20 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
-  <style>
-    .container {
-      text-align: center;
-    }
-    .registraion-container {
-      margin: 10px;
-    }
-
-    .submitBtn {
-      padding: 5px 15px;
-    }
-  </style>
   <body>
     <form id="registrationForm">
       <div class="container">
@@ -27,14 +16,22 @@
         <div class="registraion-container">
           <label for="">Trucking </label>
           <input type="text" name="trucking" />
+          <small class="error" id="truckingError"></small>
         </div>
         <div class="registraion-container">
           <label for="">Username</label>
           <input type="text" name="username" />
+          <small class="error" id="usernameError"></small>
         </div>
         <div class="registraion-container">
           <label for="">Password </label>
           <input type="text" name="password" />
+          <small class="error" id="passwordError"></small>
+        </div>
+
+        <div>
+          <a href="#">Forgot password?</a>
+          <a href="#">Login</a>
         </div>
 
         <button type="submit" class="submitBtn">Submit</button>
